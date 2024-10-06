@@ -1,0 +1,549 @@
+@font-face {
+    font-family: fnt1;
+    src: url(./font/AbrilFatface-Regular.ttf);
+}
+@font-face {
+    font-family: fnt2;
+    src: url(./font/AlegreyaSans-Light.ttf);
+}
+@font-face {
+    font-family: fnt3;
+    src: url(./font/AlegreyaSans-Regular.ttf);
+}
+@font-face {
+    font-family: fnt4;
+    src: url(./font/Allison-Regular.ttf);
+}
+@font-face {
+    font-family: fnt5;
+    src: url(./font/GrapeNuts-Regular.ttf);
+}
+@font-face {
+    font-family: fnt6;
+    src: url(./font/WorkSans-Regular.ttf);
+}
+
+/* header */
+
+header{
+    height: 900px;
+    background-image: url(./img/Rectangle\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    font-family: fnt6;
+    font-weight:100;
+}
+
+.phone div{
+    margin: auto 15px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.phone div p {
+    margin: auto 8px;
+}
+
+ion-icon {
+    font-size: 25px;
+    margin: auto 6px;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #fff;
+    font-family: fnt6;
+    font-size: 1.3rem;
+    margin-top: 30px;
+  }
+
+  .menu ul li {
+    margin: auto 10px;
+    cursor: pointer;
+  }
+
+  .title{
+    text-align: center;
+    margin: 150px auto 50px ;
+    color: #fff;
+  }
+
+  .title h1 {
+    font-family: fnt1;
+    font-size: 56px;
+    margin-bottom: 30px;
+  }
+
+  .title h3{
+    font-family: fnt5;
+    font-size: 40px;
+    font-weight: 500;
+  }
+  /* part2 header */
+
+  .menu2{
+    text-align: center;
+    margin-top:150px;
+      }
+
+      .top{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: #fff;
+        background-color: #0098a3b6;
+        width: 20%;
+        margin: 10px  auto 0px;
+        backdrop-filter: blur(5px);
+      }
+
+      .top li {
+        margin: auto 17px;
+        font-family: fnt6;
+        padding: 10px;
+        cursor: pointer;
+      }
+
+      .button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: fnt2;
+        background-color: rgba(255, 255, 255, 0.531);
+        width: 35%;
+        margin: 0px  auto 1px;
+        padding: 20px ;
+        backdrop-filter: blur(5px);
+        font-weight: 300;
+   
+      }
+
+      .button li {
+        margin: auto 10px;
+        padding-right: 5px;
+        border-right: rgba(128, 128, 128, 0.591) 1px solid;
+        text-align: center;
+        font-weight: 600;
+        color: rgb(52, 51, 51);
+
+
+      }
+
+      .button li ion-icon {
+        font-size: 20px;
+        color: gray;
+      }
+
+
+
+      /*section1 */
+
+      .col-1 h1{
+        text-align: center;
+        font-family:fnt5 ;
+        margin: 0px auto 40px;
+        font-size: 5rem;
+        font-weight: 500;
+        padding: 20px;
+      }
+
+      .rectangle{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 100px;
+
+      }
+
+      .txt {
+        display: grid;
+        grid-template-columns: auto 180px ;
+        grid-template-rows: auto auto ;
+        margin: 10px auto;
+   ;
+      }
+
+      #p1{
+        font-family: fnt5;
+        font-weight: 600;
+        font-size: 1.3rem;
+        margin-left: 10px;
+      }
+
+      #p2{
+        font-family: fnt6;
+        font-size: 0.8rem;
+        margin-left: 15px;
+        margin-top: 10px;
+      }
+
+      #p3{
+        font-family: fnt6;
+        color: rgb(124, 123, 123);
+        font-size: 1.2rem;
+        margin-left: 10px;
+
+      }
+
+      #p4{
+        font-family: fnt6;
+        color: rgb(124, 123, 123);
+        font-size: 0.5rem;
+        grid-column: 1/3;
+        margin-left: 10px;
+
+
+      }
+
+      .rectangle div{
+        background-color: #fff;
+      }
+
+      .col-1{
+        background-image: url(./img/bg3.jpg) ;
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+      }
+
+      .image{
+        width: 100%;
+      }
+
+
+
+      /* section2 */
+
+      .col-2{
+        background-image: url(./img/Rectangle\ 64.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 750px;
+        text-align: center;
+
+      }
+
+     
+
+      /* section3 */
+        
+
+      /* part1 section3 */
+      
+      .bg{
+        background-image: url(./img/bg3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      #part3-h1{
+        font-family: fnt5;
+        text-align: center;
+        font-size: 3.5rem;
+        font-weight: 600;
+        padding: 20px;
+      }
+
+      .part1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+        margin-top: 50px;
+      }
+
+      .part1 div{
+        width: 300px;
+        background-color: rgba(255, 255, 255, 0.645);
+        backdrop-filter: blur(2px);
+        padding: 30px;
+        box-shadow: 7px 7px 13px rgba(39, 36, 36, 0.407) ;
+
+
+
+      }
+
+      .part1 div h2{
+        font-family: fnt1;
+        font-size: 1.2rem;
+        margin-top: 10px;
+      }
+
+      .part1 div p {
+        font-family: fnt6;
+        font-size: 1rem;
+        line-height: 27px;
+        margin-top: 20px;
+      }
+
+      /* part2 section3 */
+
+      #part3-2h1{
+        font-family: fnt5;
+        text-align: center;
+        font-size: 3.5rem;
+        font-weight: 600;
+        padding: 50px;
+        margin-top: 30px;
+
+      }
+
+      .part2 {
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        grid-template-rows: auto auto auto ;
+        margin-left: 90px;
+        margin-bottom:50px;
+      }
+
+      .part2 h1{
+        font-family: fnt5;
+        font-size: 1.3rem;
+        font-weight: 700;
+      }
+
+      .part2 p {
+        font-family: fnt6;
+        font-size: 12px;
+        margin-top: 10px;
+      }
+
+      #div1{
+        grid-row: 1/4;
+      }
+
+      .txt-pr2{
+        background-color: rgba(255, 255, 255, 0.635);
+        padding: 9px;
+        position: relative;
+        width: 239px;
+        top: -88px;
+
+      }
+
+      .part2 div{
+        margin-bottom: 30px;
+      }
+
+      /* part3  section3 */
+
+      .part3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      /* left form  */
+
+      .left{
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.604);
+        width: 470px;
+        height: 530px;
+        
+      }
+
+      form{
+        display: flex;
+        flex-direction: column;
+
+      }
+
+      .left h1 {
+        font-family: fnt1;
+        padding: 20px;
+        font-size: 1.5rem;
+        margin: 50px auto 20px;
+
+      }
+
+      .left p {
+        font-family: fnt6;
+        font-size: 1.3rem;
+        font-weight: lighter;
+        color: rgb(49, 49, 49);
+        margin-bottom: 40px;
+      }
+
+      input {
+        width: 340px;
+        height: 40px;
+        margin: 20px auto 40px;
+        border: none;
+        outline-color: rgb(206, 206, 206);
+      }
+
+      input::placeholder {
+        font-family: fnt6;
+        padding:10px;
+      }
+
+      button {
+        background: none;
+        border: none;
+        padding: 20px;
+        width: 100px;
+        height: 20px;
+        margin: 30px auto;
+        text-align: center;
+        font-family: fnt3;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+
+      /* right picture */
+
+      .picture-right{
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto auto auto;
+        grid-gap: 20px ;
+        
+      }
+
+      #place {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+      }
+
+      .right{
+        text-align: center;
+      }
+
+      .right  h1{
+        font-family: fnt5;
+        font-size: 3rem;
+        font-weight: 500;
+        margin-bottom: 40px;
+
+      }
+
+      .right h3 {
+        font-family: fnt6;
+        font-size: 1.3rem;
+        font-weight: lighter;
+        color: rgb(49, 49, 49);
+        margin-bottom: 40px;
+        
+      }
+
+      #place  div h4 {
+        font-family: fnt3;
+        font-weight: 700;
+      }
+
+      #place  div p {
+        font-family: fnt2;
+      }
+
+      #place div {
+        margin-right: 80px;
+      }
+
+      /* section4  */
+
+      .col-4{
+        background-color: rgba(255, 255, 255, 0.598);
+        box-shadow: 0px 0px 10px gray;
+        margin-top:50px ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 220px;
+      }
+
+      .col-4 h1 {
+        text-align: center;
+        font-family: fnt5;
+        font-weight: 700;
+        padding: 15px;
+        font-size: 2.6rem;
+        text-shadow: 5px 5px 15px gray;
+      }
+
+      .col-4 p {
+        margin: 20px auto;
+        font-family: fnt6;
+        text-align: center;
+        font-size: 1.5rem;
+
+      }
+
+      .btn-prt4{
+        background-color: #0099A3;
+        font-family: fnt2;
+        color: #fff;
+        align-items: center;
+        width: 150px;
+        height: 20px;
+        font-weight: 600;
+      }
+
+      /* footer */
+
+      footer{
+        margin-top: 50px ;
+      }
+
+      .star{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+      }
+
+      .star h1 {
+        font-family: fnt4;
+        font-size: 8rem;
+        margin-top: 10px;
+      }
+
+      .star ion-icon {
+        font-size: 10rem;
+        color: #007B83;
+      }
+
+      .footer ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-family: fnt2;
+        font-size: 1.3rem;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    
+      }
+
+      #txt-ft{
+        font-family: fnt2;
+        text-align: center;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
